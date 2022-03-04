@@ -1,75 +1,19 @@
 # Mohamed
-name: Full-year calendar
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.isocalendar.fullyear.svg
-  token: ${{ secrets.METRICS_TOKEN }}
-  base: ""
-  plugin_isocalendar: yes
-  plugin_isocalendar_duration: full-year
-  name: "💫 Starlists"
-category: github
-description: This plugin displays your star lists.
-examples:
-  +repositories from star lists: https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.starlists.svg
-  +languages from star lists: https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.starlists.languages.svg
-index: 24
-supports:
-  - user
-scopes: []
-inputs:
-
-  plugin_starlists:
-    description: Enable starlists plugin
-    type: boolean
-    default: no
-
-  plugin_starlists_limit:
-    description: Display limit (star lists)
-    type: number
-    default: 2
-    min: 1
-    max: 100
-
-  plugin_starlists_limit_repositories:
-    description: Display limit (repositories per star list)
-    type: number
-    default: 2
-    min: 0
-    max: 100
-
-  plugin_starlists_languages:
-    description: Toggle star list languages statistics
-    type: boolean
-    default: no
-
-  plugin_starlists_limit_languages:
-    description: Disply limit (languages per star list)
-    type: number
-    default: 8
-    min: 0
-    zero: disable
-
-  plugin_starlists_shuffle_repositories:
-    description: Shuffle data for varied outputs
-    type: boolean
-    default: yes
-
-  plugin_starlists_ignored:
-    description: |
-      Skipped star lists
-      This is case and emojis insensitive
-    type: array
-    format: comma-separated
-    default: ""
-    example: 😎 list1, 🥳 list2, ...
-
-  plugin_starlists_only:
-    description:  |
-      Restrict display to specified star lists
-      This is case and emojis insensitive.
-      This option is equivalent to `plugin_starlists_ignored` with all star lists but the ones listed in this option
-    type: array
-    format: comma-separated
-    default: ""
-    example: 😎 list1, 🥳 list2, ...
+<div align="center">
+  <a href="https://github.com/mohamedl">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mohamedl&show_icons=true&theme=dark&include_all_commits=true&count_private=True"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedl&layout=compact&langs_count=7&theme=dark"/>
+</div>
+  <div style="display: inline_block"><br>
+  <img align="center" alt="moh-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+src="https://media.discordapp.net/attachments/639956127056134178/890373478988013628/Publicacoes_Instagram_1_1.png?width=676&height=676">
+</div>
+  
+  ##
+ 
+<div> 
+  <
+ 
+  ![Snake animation](https://github.com/mohamedl/mohamedl/blob/output/github-contribution-grid-snake.svg)
+ 
+</div>
